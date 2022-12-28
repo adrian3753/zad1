@@ -30,3 +30,11 @@ Nazewnictwo obrazów zgodnie z metodą semver. Wersje ozaczam w postaci x.y.z, g
 
 W celu zastosowania nazewnictwa obrazów po dodaniu zmian w repozytorium i stworzeniu commita ``git add . && git commit -m "Proba progresu nr 3"``, dodałem tag ``git tag 1.0.0``, wysłałem zmiany do zdalengo repozytorium ```git push```, a następnie wysłałem utworzony tag do zdalnego repozytorium ```git push --tags```
 ![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen5.png)<br />
+
+### 4.
+Sprawdzam obecność pliku fib.yml jako opisu workflow w GitHub Action poleceniami ``gh workflow list`` oraz ``gh workflow view 44090578``<br />
+Uruchomiam GitHub Action i potwierdzam poprawność działania opracowanego rozwiązania poleceniami ``gh workflow run 44090578`` oraz ``gh run watch``<br />
+![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen6.png)<br />
+![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen7.png)<br />
+Pobieram wybrany obraz, uruchomiam kontener z opracowaną aplikacją, potwierdzam poprawność działania aplikacji poleceniem ``docker run -it --rm ghcr.io/adrian3753/fibcalc:1.0.2``
+![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen8.png)<br />
