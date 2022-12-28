@@ -1,0 +1,13 @@
+#używamy flagi --platform, aby wskazać platformę maszyny, na której budowany jest obraz, tę informację ma predefiniowana zmienna BUILDPLATFORM
+FROM --platform=$BUILDPLATFORM golang:alpine AS build
+WORKDIR /app
+COPY fibCalc.go .
+#używamy predyfiniowanych zmiennych TARGETOS oraz TARGETARCH zawierających informacje o systemie i architekturze podanych w fladze --platform
+#używamy tych zmiennych przy kompilacji programu, aby wskazać system operacyjny i architekture obrazu wynikowego
+ARG TARGETOS TARGETARCH
+RUN GOOS=$TARGETOS GOARCH=$TARGETARCH go build -o FibCalc fibCalc.go
+
+FROM scratch
+COPY --from=build /app/FibCalc /app/
+
+ENTRYPOINT ["/app/FibCalc"]
