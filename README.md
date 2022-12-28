@@ -5,7 +5,7 @@
 ### 1.
 
 Wykorzystuję algorytm obliczania n-tej liczby Fibonacciego za pomocą potęgowania macierzy. Korzystam ze wzoru:<br />
-![wzor](https://github.com/Adrian3753/zad1/blob/main/screeny/screen2.png)<br /> 
+![wzor](https://github.com/Adrian3753/zad1/blob/main/screeny/screen2.png)<br />
 Ze wzoru można odczytać, że podniesienie lewej macierzy do potęgi n-tej, da nam macierz, której elementy są liczbami Fibonacciego. 
 Wystarczy, że podniosę macierz do potęgi (n-1) - wtedy porządanym wynikiem będzie element w pierwszej kolumnie i pierwszym wierszu macierzy. 
 Złożność algorytmu to O(log(n-1)).<br /><br />
