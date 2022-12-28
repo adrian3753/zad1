@@ -38,3 +38,5 @@ Uruchomiam GitHub Action i potwierdzam poprawność działania opracowanego rozw
 ![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen7.png)<br />
 Pobieram wybrany obraz, uruchomiam kontener z opracowaną aplikacją, potwierdzam poprawność działania aplikacji poleceniem ``docker run -it --rm ghcr.io/adrian3753/fibcalc:1.0.2``
 ![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen8.png)<br />
+ghcr.io:  https://github.com/adrian3753/zad1/pkgs/container/fibcalc (ghcr.io/adrian3753/fibcalc)<br />
+docker.io: https://hub.docker.com/r/adrianszafranski/fibcalc (docker.io/adrianszafranski/fibcalc:buildcache)<br />
