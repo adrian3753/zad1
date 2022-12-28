@@ -1,4 +1,4 @@
-#używamy flagi --platform, aby wskazać platformę maszyny, na której budowany jest obraz, tę informację ma predefiniowana zmienna BUILDPLATFORM
+#używamy flagi --platform, aby wskazać platforme maszyny, na której budowany jest obraz, tę informacje ma predefiniowana zmienna BUILDPLATFORM
 FROM --platform=$BUILDPLATFORM golang:alpine AS build
 WORKDIR /app
 COPY fibCalc.go .
