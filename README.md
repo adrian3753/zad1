@@ -40,3 +40,15 @@ Pobieram wybrany obraz, uruchomiam kontener z opracowaną aplikacją, potwierdza
 ![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen8.png)<br />
 ghcr.io:  https://github.com/adrian3753/zad1/pkgs/container/fibcalc (ghcr.io/adrian3753/fibcalc)<br />
 docker.io: https://hub.docker.com/r/adrianszafranski/fibcalc (docker.io/adrianszafranski/fibcalc:buildcache)<br />
+
+## Część nieobowiązkowa
+
+### Zadanie nieobowiązkowe 1
+Sprawdzam obecność pliku fib_dod1.yml jako opisu workflow w GitHub Action poleceniami ``gh workflow list`` oraz ``gh workflow view 44159277``<br />
+Uruchomiam GitHub Action i potwierdzam poprawność działania opracowanego rozwiązania poleceniami ``gh workflow run 44159277`` oraz ``gh run watch``<br />
+![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen9.png)<br />
+![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen10.png)<br />
+Pobieram wybrany obraz, uruchomiam kontener z opracowaną aplikacją, potwierdzam poprawność działania aplikacji poleceniem ``docker run -it --rm ghcr.io/adrian3753/fibcalc_dod1:1.1.1``
+![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen11.png)<br />
+ghcr.io:  https://github.com/adrian3753/zad1/pkgs/container/fibcalc_dod1 (ghcr.io/adrian3753/fibcalc_dod1)<br />
+docker.io: https://hub.docker.com/r/adrianszafranski/fibcalc (docker.io/adrianszafranski/fibcalc:buildcache)<br />
