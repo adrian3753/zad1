@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"strconv"
 )
 
@@ -72,7 +74,15 @@ func main() {
 
 	for bledyWalidacji {
 		fmt.Print("Podaj numer elementu ciągu Fibonacciego (zakres 0 - 92): ")
-		fmt.Scan(&numElemFibString)
+		scanner := bufio.NewScanner(os.Stdin)
+
+		if scanner.Scan() {
+			numElemFibString = scanner.Text()
+		}
+
+		if err := scanner.Err(); err != nil {
+			fmt.Println(err)
+		}
 
 		numElemFib, err := strconv.ParseInt(numElemFibString, 10, 64)
 
