@@ -28,7 +28,7 @@ Nazewnictwo obrazów zgodnie z metodą semver. Wersje ozaczam w postaci x.y.z, g
 "y", gdy dodaję nową funkcjonalność, która jest kompatybilna z poprzednimi wersjami,<br />
 "z", gdy naprawiam błąd, nie wpływaąc na kompatybilność z poprzednimi wersjami.<br /><br />
 
-W celu zastosowania nazewnictwa obrazów po dodaniu zmian w repozytorium i stworzeniu commita ``git add . && git commit -m "Proba progresu nr 3"``, dodałem tag ``git tag 1.0.0``, wysłałem zmiany do zdalengo repozytorium ```git push```, a następnie wysłałem utworzony tag do zdalnego repozytorium ```git push --tags```
+W celu zastosowania nazewnictwa obrazów po dodaniu zmian w repozytorium i stworzeniu commita ``git add . && git commit -m "Proba progresu nr 4"``, dodałem tag ``git tag 1.0.0``, wysłałem zmiany do zdalengo repozytorium ```git push```, a następnie wysłałem utworzony tag do zdalnego repozytorium ```git push --tags```
 ![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen5.png)<br />
 
 ### 4.
