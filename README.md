@@ -29,7 +29,7 @@ Nazewnictwo obrazów zgodnie z metodą semver. Wersje ozaczam w postaci x.y.z, g
 "z", gdy naprawiam błąd, nie wpływaąc na kompatybilność z poprzednimi wersjami.<br /><br />
 
 W celu zastosowania nazewnictwa obrazów po dodaniu zmian w repozytorium i stworzeniu commita ``git add . && git commit -m "Proba progresu nr 4"``, dodałem tag ``git tag 1.0.0``, wysłałem zmiany do zdalengo repozytorium ```git push```, a następnie wysłałem utworzony tag do zdalnego repozytorium ```git push --tags```
-![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen5.png)<br />
+![komendy](https://github.com/Adrian3753/zad1/blob/main/screeny/screen5_v2.png)<br />
 
 ### 4.
 Sprawdzam obecność pliku fib.yml jako opisu workflow w GitHub Action poleceniami ``gh workflow list`` oraz ``gh workflow view 44090578``<br />
